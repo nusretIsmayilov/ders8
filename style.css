@@ -1,0 +1,38 @@
+:root {
+    --transition: 400ms;
+
+}
+
+body {
+    background-color: azure;
+}
+
+div {
+    width: 250px;
+    text-align: center;
+    float: left;
+    margin: 20px 120px 20px 120px;
+    border-radius: 10px;
+    background-color: white;
+    transition: var(--transition);
+    color:blueviolet ;
+}
+
+div:hover {
+    background-color: blueviolet;
+
+}
+
+div:hover h1,
+div:hover p,div:hover i {
+    color: white;
+}
+
+h1,
+p,i {
+    transition: var(--transition);
+}
+i{
+    margin-top: 20px;
+    font-size: 30px;
+}
